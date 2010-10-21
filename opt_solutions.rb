@@ -10,6 +10,8 @@ while sum < 1_000_000
 end
 puts "The sum is #{sum}."
 
+puts "Problem #5"
+
 puts "Problem #9"
 n = 1000
 a = (1..n / 2).to_a.find { |a| (n * (n / 2 - a) % (n - a)).zero? }
