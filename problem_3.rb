@@ -1,5 +1,4 @@
-class Numbo
-
+class Number
 
 factor = [ 1 ]
 x = 2
@@ -25,7 +24,7 @@ end
 
 p factor
 
-factor.delete_if { |x| !(Numbo.is_prime(x)) }
+factor.delete_if { |x| !(Number.is_prime(x)) }
 
 p factor
 
